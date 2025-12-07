@@ -1,12 +1,12 @@
 
 import React from 'react'
-import AddDeleteItems from './AddDeleteItems'
+import DerivedState from './DerivedState'
 
 function App() {
   return (
     <div>
-      
-      <AddDeleteItems/>
+     
+      <DerivedState/>
     </div>
   )
 }

@@ -8,6 +8,7 @@ function AddDeleteItems() {
         return;
         setItem([...item,input]);  
     }
+    
     const DeleteItem=(index)=>{
       const newitem = item.filter((_,i)=>i!==index);
       setItem(newitem);
